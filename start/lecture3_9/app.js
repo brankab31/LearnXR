@@ -39,6 +39,7 @@ class App{
         
         window.addEventListener('resize', this.resize.bind(this) );
 	}	
+	//test
     
     initScene(){
         this.geometry = new THREE.BoxBufferGeometry( 0.06, 0.06, 0.06 ); 
